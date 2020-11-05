@@ -14,15 +14,14 @@ I'm a final year PhD student of Computer Science at the University of Illinois a
 
 Research Interests
 ======
-Natural Language Processing, Deep Learning, Lifelong Learning, Reasoning Problems in AI and NLP.
+Natural Language Processing, Deep Learning, Dialogue and Interactive Systems, Lifelong Learning, Sentiment Analysis.
 
 **Current Research Topics**: Dialogue and Interactive Systems, Knowledge Base Reasoning, Sentiment Analysis, Deep Reinforcement Learning.
 
 **Past Research Experiences**
 
-News data analytics (studying temporal dynamics of news concepts on Web, focused news search, news-casters discovery in social media)
-
-Location-aware Review Mining (location-specific activity mining from Yelp Reviews, activity knowledge base construction using graph databases for location-aware recommendations)
+- **News data analytics:** Studying temporal dynamics of news concepts on Web, Focused news search, News-casters discovery in social media.
+- **Location-aware Review Mining:** Location-specific activity mining from Yelp Reviews, Activity knowledge base construction using graph databases for location-aware recommendations.
 
 
 Updates
@@ -48,8 +47,8 @@ Professional Services
 **Secondary Reviewer**
 - Conference on Empirical Methods in Natural Language Processing (**EMNLP - 2017**).
 
-Projects
-------
+Research Projects
+=========
 projects
 
 **subsection**
