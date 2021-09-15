@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>Sahisnu Mazumder - Home</title>
+    <title>Sahisnu Mazumder's Home Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min5.css">
@@ -52,18 +52,107 @@
 <body style="background-color:rgb(255, 255, 255);margin-top: 20px;">
 
 <div class="container" style="max-width: 1100px;">
-    <h3>Sahisnu Mazumder's Publications - Chronological listing</h3>
+    <h3><a href="../index.html">Sahisnu Mazumder</a>'s Publications - Chronological listing</h3>
     <hr/>
 
     <ol>
         <h3> 2021 </h3>
         <li>
-            <b> <a href="https://www.cs.uic.edu/~liub/publications/LINC_paper_AAAI_2021_camera_ready.pdf">
+            <b> <a href="#">
+                Semantic Novelty Detection in Natural Language Descriptions </a>
+            </b> <br/>
+                Nianzu Ma, Alexander Politowicz, Sahisnu Mazumder, Jiahua Chen, Bing Liu, Eric Robertson and Scott Grigsby. <br/>
+            <i> In Proceedings of Conference on Empirical Methods in Natural Language Processing </i> (<b> EMNLP 2021 </b>)
+            <br/>
+            <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#ma2021novelty">Abstract</button>
+              <div id="ma2021novelty" class="collapse">
+                  <div class="well well-sm" style="text-justify: auto;font-size: small">
+                      This paper proposes to study a fine-grained semantic novelty detection task, which can be illustrated with
+                      the following example. It is normal that a person walks a dog in the park, but if someone says “A man is walking
+                      a chicken in the park,” it is novel. Given a set of natural language descriptions of normal scenes, we want to
+                      identify descriptions of novel scenes. We are not aware of any existing work that solves the problem. Although
+                      existing novelty or anomaly detection algorithms are applicable, since they are usually topic-based, they perform
+                      poorly on our fine-grained semantic novelty detection task. This paper proposes an effective model (called GAT-MA)
+                      to solve the problem and also contributes a new dataset. Experimental evaluation shows that GAT-MA outperforms 11
+                      baselines by large margins.
+                  </div>
+              </div>
+            <button type="button" class="btn btn-sm-bib" data-toggle="collapse" data-target="#ma2021novelty3">bib</button>
+              <div id="ma2021novelty3" class="collapse">
+                <div class="well well-sm">Small Well</div>
+              </div>
+            <a href="#"
+               class="btn btn-sm-sld" role="button" >slides</a>
+        </li>
+          <br/>
+
+        <li>
+            <b> <a href="https://aclanthology.org/2021.findings-acl.320.pdf">
+                Detecting Domain Polarity-Changes of Words in a Sentiment Lexicon </a>
+            </b> <br/>
+                Shuai Wang, Guangyi Lv, Sahisnu Mazumder and Bing Liu. <br/>
+            <i> In Findings of ACL : Annual Meeting of the Association for Computational Linguistics </i> (<b> ACL 2021, Findings </b>)
+            <br/>
+            <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#wang2021detecting">Abstract</button>
+              <div id="wang2021detecting" class="collapse">
+                  <div class="well well-sm" style="text-justify: auto;font-size: small">
+                      Dialogue systems, also called chatbots, are now used in a wide range of applications. However, they still have some
+                      major weaknesses. One key weakness is that they are typically trained from manually-labeled data and/or written with
+                      handcrafted rules, and their knowledge bases (KBs) are also compiled by human experts. Due to the huge amount of manual
+                      effort involved, they are difficult to scale and also tend to produce many errors ought to their limited ability to
+                      understand natural language and the limited knowledge in their KBs. Thus, the level of user satisfactory is often low.
+                      In this paper, we propose to dramatically improve the situation by endowing the chatbots the ability to continually learn
+                      (1) new world knowledge, (2) new language expressions to ground them to actions, and (3) new conversational skills,
+                      during conversation by themselves so that as they chat more and more with users, they become more and more knowledgeable
+                      and are better and better able to understand diverse natural language expressions and to improve their conversational skills.
+                  </div>
+              </div>
+            <button type="button" class="btn btn-sm-bib" data-toggle="collapse" data-target="#wang2021detecting3">bib</button>
+              <div id="wang2021detecting3" class="collapse">
+                <div class="well well-sm">Small Well</div>
+              </div>
+            <a href="#"
+               class="btn btn-sm-sld" role="button" >slides</a>
+        </li>
+          <br/>
+
+        <li>
+            <b> <a href="https://www.aclweb.org/anthology/2021.naacl-main.222.pdf">
+                FLIN: A Flexible Natural Language Interface for Web Navigation </a>
+            </b> <br/>
+                Sahisnu Mazumder and Oriana Riva. <br/>
+            <i> In Proceedings of North American Chapter of the Association for Computational Linguistics:
+                Human Language Technologies </i> (<b> NAACL-HLT 2021 </b>)
+            <br/>
+            <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2021flin">Abstract</button>
+              <div id="mazumder2021flin" class="collapse">
+                  <div class="well well-sm" style="text-justify: auto;font-size: small">
+                      AI assistants can now carry out tasks for users by directly interacting with website UIs. Current semantic parsing
+                      and slot-filling techniques cannot flexibly adapt to many different websites without being constantly re-trained.
+                      We propose FLIN, a natural language interface for web navigation that maps user commands to concept-level actions
+                      (rather than low-level UI actions), thus being able to flexibly adapt to different websites and handle their
+                      transient nature. We frame this as a ranking problem: given a user command and a webpage, FLIN learns to score the
+                      most relevant navigation instruction (involving action and parameter values). To train and evaluate FLIN, we collect
+                      a dataset using nine popular websites from three domains. Our results show that FLIN was able to adapt to new
+                      websites in a given domain.
+                  </div>
+              </div>
+            <button type="button" class="btn btn-sm-bib" data-toggle="collapse" data-target="#mazumder2021flin3">bib</button>
+              <div id="mazumder2021flin3" class="collapse">
+                <div class="well well-sm">Small Well</div>
+              </div>
+            <a href="#"
+               class="btn btn-sm-sld" role="button" >slides</a>
+        </li>
+          <br/>
+
+        <li>
+            <b> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17768">
                 Lifelong and Continual Learning Dialogue Systems: Learning during Conversation </a> <br/>
                 [ <i> past title: </i> Lifelong Learning Dialogue Systems: Chatbots that Self-Learn On the Job ]
             </b> <br/>
                 Bing Liu and Sahisnu Mazumder. <br/>
-            <i> To appear in AAAI Conference on Artificial Intelligence </i> (<b> AAAI-2021 </b>)
+            <i> In Proceedings of AAAI Conference on Artificial Intelligence </i> (<b> AAAI 2021 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#liu2021lifelong">Abstract</button>
               <div id="liu2021lifelong" class="collapse">
@@ -96,7 +185,7 @@
                 An Application-Independent Approach to Building Task-Oriented Chatbots with Interactive Continual Learning </a>
             </b> <br/>
                 Sahisnu Mazumder, Bing Liu, Shuai Wang, and Sepideh Esmaeilpour. <br/>
-            <i> In NeurIPS-2020 Workshop on Human in the Loop Dialogue Systems </i> (<b> HLDS @ NeurIPS-2020 </b>)
+            <i> In NeurIPS-2020 Workshop on Human in the Loop Dialogue Systems </i> (<b> HLDS @ NeurIPS 2020 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2020hlds">Abstract</button>
               <div id="mazumder2020hlds" class="collapse">
@@ -130,7 +219,7 @@
             </b> <br/>
                 Sahisnu Mazumder, Bing Liu, Nianzu Ma, and Shuai Wang. <br/>
             <i> In NeurIPS-2020 Workshop on Human And Machine in-the-Loop Evaluation and Learning Strategies
-            </i> (<b> HAMLETS @ NeurIPS-2020 </b>)
+            </i> (<b> HAMLETS @ NeurIPS 2020 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2020hamlets">Abstract</button>
               <div id="mazumder2020hamlets" class="collapse">
@@ -164,8 +253,7 @@
                 Bayes-enhanced Lifelong Attention Networks for Sentiment Classification </a>
             </b> <br/>
                 Hao Wang, Shuai Wang, Sahisnu Mazumder, Bing Liu, Yan Yang, and Tianrui Li. <br/>
-            <i> In Proceedings of International Conference on Computational Linguistics
-            </i> (<b> COLING-2020 </b>)
+            <i> In Proceedings of International Conference on Computational Linguistics </i> (<b> COLING 2020 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#hao2020coling">Abstract</button>
               <div id="hao2020coling" class="collapse">
@@ -183,8 +271,8 @@
                 A Knowledge-Driven Approach to Classifying Object and Attribute Coreferences in Opinion Mining </a>
             </b> <br/>
                 Jiahua Chen, Shuai Wang, Sahisnu Mazumder, and Bing Liu. <br/>
-            <i> In Findings of 2020 Conference on Empirical Methods in Natural Language Processing
-            </i> (<b> EMNLP-2020, Findings </b>)
+            <i> In Findings of ACL : Conference on Empirical Methods in Natural Language Processing
+            </i> (<b> EMNLP 2020, Findings </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#chen2020emnlp">Abstract</button>
               <div id="chen2020emnlp" class="collapse">
@@ -202,8 +290,7 @@
                 Entity-Aware Dependency-Based Deep Graph Attention Network for Comparative Preference Classification </a>
             </b> <br/>
                 Nianzu Ma, Sahisnu Mazumder, Hao Wang, and Bing Liu. <br/>
-            <i> In Proceedings of Annual Meeting of the Association for Computational Linguistics
-            </i> (<b> ACL-2020 </b>)
+            <i> In Proceedings of Annual Meeting of the Association for Computational Linguistics </i> (<b> ACL 2020 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#ma2020acl">Abstract</button>
               <div id="ma2020acl" class="collapse">
@@ -224,7 +311,7 @@
             </b> <br/>
                 Sahisnu Mazumder, Bing Liu, Shuai Wang and Nianzu Ma. <br/>
             <i> In Proceedings of Annual Meeting of the Special Interest Group on Discourse and Dialogue
-            </i> (<b> SIGDIAL-2019 </b>)
+            </i> (<b> SIGDIAL 2019 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2019sigdial">Abstract</button>
               <div id="mazumder2019sigdial" class="collapse">
@@ -241,6 +328,43 @@
               </div>
             <button type="button" class="btn btn-sm-bib" data-toggle="collapse" data-target="#mazumder2019sigdial3">bib</button>
               <div id="mazumder2019sigdial3" class="collapse">
+                <div class="well well-sm" style="justify-content: center;font-size: small">
+                    @inproceedings{mazumder2019lifelong, <br/>
+                    &nbsp;&nbsp;  title={Lifelong and Interactive Learning of Factual Knowledge in Dialogues}, <br/>
+                    &nbsp;&nbsp;  author={Mazumder, Sahisnu and Liu, Bing and Wang, Shuai and Ma, Nianzu}, <br/>
+                    &nbsp;&nbsp;  booktitle={Proceedings of the 20th Annual SIGdial Meeting on Discourse and Dialogue}, <br/>
+                    &nbsp;&nbsp;  pages={21--31}, <br/>
+                    &nbsp;&nbsp;  year={2019} <br/>
+                    }
+                </div>
+              </div>
+            <a href="#"
+               class="btn btn-sm-sld" role="button" >slides</a>
+        </li>
+        <br/>
+
+        <li>
+            <b> <a href="https://www.aclweb.org/anthology/W19-5903.pdf">
+                Disentangling Aspect and Opinion Words in Sentiment Analysis Using Lifelong PU Learning </a>
+            </b> <br/>
+                Shuai Wang, Mianwei Zhou, Sahisnu Mazumder, Bing Liu, Yi Chang. <br/>
+            <i> In ECML PKDD Workshop on New Frontiers in Mining Complex Patterns </i> (<b> NFMCP @ ECML-PKDD 2019 </b>)
+            <br/>
+            <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#wang2019nfmcp">Abstract</button>
+              <div id="wang2019nfmcp" class="collapse">
+                <div class="well well-sm" style="text-justify: auto;font-size: small">
+                    Dialogue systems are increasingly using knowledge bases (KBs) storing real-world facts to help
+                    generate quality responses. However, as the KBs are inherently incomplete and remain fixed during
+                    conversation, it limits dialogue systems' ability to answer questions and to handle questions involving
+                    entities or relations that are not in the KB. In this paper, we make an attempt to propose an engine for
+                    Continuous and Interactive Learning of Knowledge (CILK) for dialogue systems to give them the ability
+                    to continuously and interactively learn and infer new knowledge during conversations. With more knowledge
+                    accumulated over time, they will be able to learn better and answer more questions. Our empirical evaluation
+                    shows that CILK is promising.
+                </div>
+              </div>
+            <button type="button" class="btn btn-sm-bib" data-toggle="collapse" data-target="#wang2019nfmcp3">bib</button>
+              <div id="wang2019nfmcp3" class="collapse">
                 <div class="well well-sm" style="justify-content: center;font-size: small">
                     @inproceedings{mazumder2019lifelong, <br/>
                     &nbsp;&nbsp;  title={Lifelong and Interactive Learning of Factual Knowledge in Dialogues}, <br/>
@@ -285,7 +409,7 @@
             </b> <br/>
                 Shuai Wang, Guangyi Lv, Sahisnu Mazumder, Geli Fei, and Bing Liu. <br/>
             <i> In Proceedings of IEEE International Conference on Big Data
-            </i> (<b> IEEE BigData-2018 </b>)
+            </i> (<b> IEEE BigData 2018 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#wang2018bigdata">Abstract</button>
               <div id="wang2018bigdata" class="collapse">
@@ -304,7 +428,7 @@
             </b> <br/>
                 Shuai Wang, Sahisnu Mazumder, Bing Liu, Mianwei Zhou, and Yi Chang. <br/>
             <i> In Proceedings of Annual Meeting of the Association for Computational Linguistics
-            </i> (<b> ACL-2018 </b>)
+            </i> (<b> ACL 2018 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#wang2018acl">Abstract</button>
               <div id="wang2018acl" class="collapse">
@@ -347,7 +471,7 @@
             </b> <br/>
                 Sahisnu Mazumder and Bing Liu. <br/>
             <i> In Proceedings of International Joint Conference on Artificial Intelligence
-            </i> (<b> IJCAI-2017 </b>)
+            </i> (<b> IJCAI 2017 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2017ijcai">Abstract</button>
               <div id="mazumder2017ijcai" class="collapse">
@@ -369,7 +493,7 @@
             </b> <br/>
                 Sahisnu Mazumder, Sameep Mehta, and Dhaval Patel. <br/>
             <i> In Proceedings of ACM International on Conference on Information and Knowledge Management
-            </i> (<b> CIKM-2015 </b>)
+            </i> (<b> CIKM 2015 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2015cikm">Abstract</button>
               <div id="mazumder2015cikm" class="collapse">
@@ -415,7 +539,7 @@
             </b> <br/>
                 Sahisnu Mazumder, Dhaval Patel and Sameep Mehta. <br/>
             <i> In Proceedings of International Conference on Data Warehousing and Knowledge Discovery
-            </i> (<b> DaWaK-2014 </b>)
+            </i> (<b> DaWaK 2014 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2014dawak">Abstract</button>
               <div id="mazumder2014dawak" class="collapse">
@@ -438,7 +562,7 @@
             </b> <br/>
                 Rahul Mitra, Sahisnu Mazumder, Tuhin Sharma, Nandita Sengupta and Jaya Sil. <br/>
             <i> In Proceedings of International Conference on Swarm, Evolutionary and Memetic Computing
-            </i> (<b> SEMCCO-2012 </b>)
+            </i> (<b> SEMCCO 2012 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mitra2012semcco">Abstract</button>
               <div id="mitra2012semcco" class="collapse">
@@ -457,7 +581,7 @@
             </b> <br/>
                 Sahisnu Mazumder, Tuhin Sharma, Rahul Mitra, Nandita Sengupta, and Jaya Sil. <br/>
             <i> In Proceedings of International Conference on Swarm, Evolutionary and Memetic Computing
-            </i> (<b> SEMCCO-2012 </b>)
+            </i> (<b> SEMCCO 2012 </b>)
             <br/>
             <button type="button" class="btn btn-sm-abs" data-toggle="collapse" data-target="#mazumder2012semcco">Abstract</button>
               <div id="mazumder2012semcco" class="collapse">
