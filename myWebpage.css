@@ -1,0 +1,67 @@
+.rowC{
+    display:flex;
+    flex-direction:row;
+}
+
+.columnC{
+    display:flex;
+    flex-direction:column;
+}
+
+.home_container {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    background-color: rgba(245, 246, 247, 0.44);
+    /*border: 1px solid #5e1515;*/
+    border-radius: 40px;
+}
+
+.content_container {
+    display: flex;
+    flex-direction:column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.page_container {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    background-color: rgba(245, 246, 247, 0.44);
+    /*border: 1px solid #5e1515;*/
+    border-radius: 40px;
+}
+
+.bio_container {
+    display: flex;
+    flex-direction:column;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.pub_container {
+    display: flex;
+    flex-direction:column;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.talks_container {
+    display: flex;
+    flex-direction:column;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
